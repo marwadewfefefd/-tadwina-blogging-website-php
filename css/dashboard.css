@@ -1,0 +1,83 @@
+@font-face {
+    font-family:neo;
+    src: url(font/Janna_LT_Regular.ttf);
+    }
+
+*{
+
+    font-family:neo ;
+}
+:root{
+    --first-color:#5b4834;
+    --second-color:#aaa69d;
+
+}
+body{
+    background-color: #f9f9f9;
+    
+}
+a,a:hover{
+    text-decoration: none;
+}
+#side-area{
+    background-color: var(--first-color);
+    color:#fff;
+    padding:20px 0;
+}
+
+#side-area h4{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#side-area ul{
+    list-style:none;
+    padding:0;
+}
+
+#side-area ul li{
+    background: var(--second-color);
+    margin-bottom:5px;
+    padding:5px ;
+}
+#side-area ul li a{
+    color:#fff;
+}
+
+#side-area #menu li{
+    background-color:#61605d ;
+}
+/*************categories***************/
+
+.btn-custom{
+    background-color:var(--first-color);
+    color:#fff;
+    width:110px;
+    border:1px solid var(--first-color);
+}
+
+.btn-custom2{
+    background-color:var(--first-color);
+    color:#fff;
+    width:170px;
+    border:1px solid var(--first-color);
+    
+}
+
+.tit{
+    text-align: center;
+}
+.add-category{
+    margin-top: 30px;
+}
+
+#main-area{
+    margin-top:20px;
+}
+
+.thh{
+    color:#fff;
+    background-color: var(--first-color)!important;
+    border: none;
+
+}
